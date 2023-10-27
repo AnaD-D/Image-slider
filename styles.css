@@ -8,8 +8,10 @@ body {
 
 .wrapper {
     position: relative;
-    height: 400px;
-    width: 700px;
+    height: 420px;
+    width: 720px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 30px;
 }
 
 .wrapper .img {
@@ -24,6 +26,7 @@ body {
     object-fit: cover;
     clip-path: circle(0% at 0% 100%);
     transition: all 0.7s;
+    border-radius: 30px;
 }
 
 #one:checked ~ .img-1 img {
@@ -60,7 +63,7 @@ body {
 .wrapper .sliders label {
     height: 13px;
     width: 13px;
-    border: 2px solid rgb(213, 151, 254);
+    border: 2px solid rgb(255, 255, 255);
     margin: 0 3px;
     cursor: pointer;
     border-radius: 50%;
@@ -72,12 +75,12 @@ body {
 #four:checked ~ .sliders label.four {
     width: 35px;
     border-radius: 14px;
-    background: rgb(213, 151, 254);
+    background: rgb(255, 255, 255);
     transition: all 0.5s;
 }
 
 .sliders label:hover {
-    background: rgb(213, 151, 254);
+    background: rgb(255, 255, 255);
 }
 
 .wrapper input[type="radio"] {
